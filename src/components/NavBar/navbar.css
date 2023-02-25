@@ -1,0 +1,32 @@
+.container{
+    /* background: rgb(183, 155, 228); */
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem;
+    /* backdrop-filter: blur(15px); */
+}
+
+.title {
+    font-family: 'Inspiration', cursive;
+    font-size: 6rem;
+    color:#FFF6F9;
+}
+
+.links {
+    font-family: 'Italiana', serif;
+    background: transparent;
+    padding: 1rem;
+    text-decoration: none;
+    color: #BDA5AB;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.links:hover {
+    color: white;
+    border-radius: 2rem;
+}
